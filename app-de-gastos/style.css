@@ -1,0 +1,45 @@
+/* *{
+    border: solid pink 1px;
+} */
+.container{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 41px;
+}
+header p{
+    color: white;
+    margin-left:12%; /*arreglar, mal posicionamiento*/
+}
+#participantes p{
+    color: black;
+    border: solid gray 1px;
+    height: 40px;
+}
+.participantes-section{
+    height: 100px;
+}
+
+body{
+     width: 337px; 
+    height: 600px;
+    margin:0 auto;
+    background-color: gray;
+}
+header{
+    height: 159px;
+    background-color: rgba(19, 92, 247, 1);
+}
+/* h1{
+    margin-top: 41px;
+} */
+
+section{
+    height: 330px;
+    background-color: white;
+}
+.formulario{
+    height: 160px;
+}
