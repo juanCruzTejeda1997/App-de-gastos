@@ -9,15 +9,6 @@ function cargar(nombre1, mont0){
     montos.push(mont0);
 }
 
-// function crear(nomArr,monArr){
-//     const participantes = document.getElementById("participantes");
-//     for(i=0; i< nomArr.length; i++){
-//         const persona = document.createElement("p");
-//         persona.innerText=nombres[i]+" "+montos[i];
-        
-//         participantes.append(persona);
-//     }
-// }
 
 let count=0;
 function crearParticipantes(nombresArr,montosArr){
@@ -55,15 +46,6 @@ function totalPorPersona(){
     cadaUno.innerText=calcTotalPorPersona();
 
 }
-// function mostrarArr(){
-//     for(let elemento of nombres){
-//         console.log(elemento);
-//     }
-//     for(let elemento of montos){
-//         console.log(elemento);
-//     }
-// }
-
 
 function enviar(){
     let monto =parseInt(mon.value);    
