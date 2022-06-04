@@ -32,8 +32,8 @@ function calcTotal(montosArr){
 function total(){
     const resultado = document.getElementById("total");
     
-    resultado.innerText = calcTotal(montos);
-    console.log(calcTotal(montos))
+    resultado.innerText ="$"+ calcTotal(montos);
+    
     
 }
 function calcTotalPorPersona(){
@@ -43,7 +43,7 @@ function calcTotalPorPersona(){
 }
 function totalPorPersona(){
     const cadaUno = document.getElementById("cadaUno");
-    cadaUno.innerText=calcTotalPorPersona();
+    cadaUno.innerText="$"+calcTotalPorPersona();
 
 }
 

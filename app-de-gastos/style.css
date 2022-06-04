@@ -7,11 +7,12 @@
 h1{
     text-align: center;
     color: white;
-    margin-top: 41px;
+    margin-top: 5px;
 }
-header p{
+h6{
     color: white;
-    margin-left:12%; /*arreglar, mal posicionamiento*/
+    text-align: center;
+     /*arreglar, mal posicionamiento*/
 }
 #participantes p{
     color: black;
@@ -31,6 +32,7 @@ body{
 header{
     height: 159px;
     background-color: rgba(19, 92, 247, 1);
+    border-radius: 4px;
 }
 /* h1{
     margin-top: 41px;
@@ -42,4 +44,12 @@ section{
 }
 .formulario{
     height: 160px;
+}
+
+button{
+    background-color: rgb(231, 69, 69);
+    border-radius: 4px;
+    margin-top: 5px;
+    color: aliceblue;
+    border: none;
 }
