@@ -1,4 +1,5 @@
-# App-de-gastos finalidad: es una aplicación programada en lenguaje JS la cual permite dividir la totalidad de gastos, realizados por separado, de forma equitativa entre
+# App-de-gastos 
+finalidad: es una aplicación programada en lenguaje JS la cual permite dividir la totalidad de gastos, realizados por separado, de forma equitativa entre
 los/las diferentes participes de una reunion, juntada o deuda comun. Su finalidad es agilizar las cuentas, todo el tiempo y tedio requerido se reducen significativamente.
 
 #App-de-gastos funcionamiento: el proceso comienza en el ingreso de datos desde un <input> (nombre de la persona y gasto realizado) los cuales son levantados 
