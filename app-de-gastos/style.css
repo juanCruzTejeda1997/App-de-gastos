@@ -28,7 +28,7 @@ body{
      width: 337px; 
     height: 600px;
     margin:0 auto;
-    background-color: gray;
+    background-color: rgba(195, 243, 173, 0.803);
 }
 header{
     height: 159px;
@@ -51,4 +51,13 @@ button{
     margin-top: 5px;
     color: aliceblue;
     border: none;
+}
+
+.refrescar{
+    background-color: rgb(97, 140, 232);
+    text-align: center;
+}
+.refrescar button{
+    margin-top: 0px;
+    
 }

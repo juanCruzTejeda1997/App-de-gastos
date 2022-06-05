@@ -3,6 +3,7 @@ const mon = document.getElementById("monto");
 
 let nombres=[];
 let montos=[];
+let count=0;
 
 function cargar(nombre1, mont0){
     nombres.push(nombre1);
@@ -10,16 +11,15 @@ function cargar(nombre1, mont0){
 }
 
 
-let count=0;
 function crearParticipantes(nombresArr,montosArr){
     const participantes = document.getElementById("participantes");
     const persona = document.createElement("p");
     persona.innerText=nombres[count]+": $"+montos[count];
-    
     participantes.append(persona)
     count++;
-    
 }
+    
+    
 
 function calcTotal(montosArr){
     let total=0;
@@ -39,7 +39,8 @@ function total(){
 function calcTotalPorPersona(){
     let total = calcTotal(montos);
     let totalPorPersona = total / nombres.length;
-    return totalPorPersona;
+    let totalFinal= totalPorPersona.toFixed(2);
+    return totalFinal;
 }
 function totalPorPersona(){
     const cadaUno = document.getElementById("cadaUno");
@@ -56,6 +57,10 @@ function enviar(){
     totalPorPersona();
    
 
+}
+
+function refrescar(){
+    location.reload(true);
 }
 
 
