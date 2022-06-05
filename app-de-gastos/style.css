@@ -1,63 +1,59 @@
-
-.container{
-    background-color: white;
+.container {
+  background-color: white;
 }
-h1{
-    text-align: center;
-    color: white;
-    margin-top: 5px;
-    padding-top: 10px;
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  padding-top: 10px;
 }
-h6{
-    color: white;
-    text-align: center;
-    
+h6 {
+  color: white;
+  text-align: center;
 }
-#participantes p{
-    color: black;
-    border: solid rgba(128, 128, 128, 0.571) 1px;
-    height: 40px;
-    margin-bottom: 0rem;
-    padding-left: 5px;
+#participantes p {
+  color: black;
+  border: solid rgba(128, 128, 128, 0.571) 1px;
+  height: 40px;
+  margin-bottom: 0rem;
+  padding-left: 5px;
 }
-.participantes-section{
-    height: 100px;
+.participantes-section {
+  height: 100px;
 }
 
-body{
-     width: 337px; 
-    height: 600px;
-    margin:0 auto;
-    background-color: rgba(195, 243, 173, 0.803);
+body {
+  width: 337px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: rgba(195, 243, 173, 0.803);
 }
-header{
-    height: 159px;
-    background-color: rgba(19, 92, 247, 1);
-    border-radius: 4px;
-}
-
-
-section{
-    height: 330px;
-    background-color: white;
-}
-.formulario{
-    height: 160px;
+header {
+  height: 159px;
+  background-color: rgba(19, 92, 247, 1);
+  border-radius: 4px;
 }
 
-button{
-    background-color: rgb(231, 69, 69);
-    border-radius: 4px;
-    margin-top: 5px;
-    color: aliceblue;
-    border: none;
+section {
+  height: 330px;
+  background-color: white;
+}
+.formulario {
+  height: 160px;
 }
 
-.refrescar{
-    background-color: rgb(97, 140, 232);
-    text-align: center;
+button {
+  background-color: rgb(231, 69, 69);
+  border-radius: 4px;
+  margin-top: 5px;
+  color: aliceblue;
+  border: none;
 }
-.refrescar button{
-    margin-top: 0px;
-    
+
+.refrescar {
+  background-color: rgb(97, 140, 232);
+  text-align: center;
+}
+.refrescar button {
+  margin-top: 0px;
 }

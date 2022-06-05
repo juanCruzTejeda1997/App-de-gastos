@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/sin-dinero.png">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="img/sin-dinero.png" />
+    <link rel="stylesheet" href="style.css" />
     <title>App de gastos</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <div class="row justify-content-center ">
-        
+      <div class="row justify-content-center">
         <div class="col">
-            <header>
-                <h1>App de gastos</h1>
-                <h6>ingresá cuanto pagó cada persona</h6>
-            </header>
+          <header>
+            <h1>App de gastos</h1>
+            <h6>ingresá cuanto pagó cada persona</h6>
+          </header>
         </div>
-    </div>
-    
-    <section class="row formulario" >
+      </div>
+
+      <section class="row formulario">
         <form>
-            <div class="form-group">
-              <label for="nombre">Nombre</label>
-              <input type="text" class="form-control" id="nombre" >
-            </div>
-            <div class="form-group">
-              <label for="monto">Gastó</label>
-              <input type="number" class="form-control" id="monto" >
-            </div>
-            <button type="button" onclick="enviar()">Enviar</button>
-          </form>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" />
+          </div>
+          <div class="form-group">
+            <label for="monto">Gastó</label>
+            <input type="number" class="form-control" id="monto" />
+          </div>
+          <button type="button" onclick="enviar()">Enviar</button>
+        </form>
+      </section>
 
-    </section>
-
-    <section class="row participantes-section overflow-auto">
+      <section class="row participantes-section overflow-auto">
         <div class="col-12" id="participantes"></div>
-    </section>
+      </section>
 
-    <div class="row">
-        <div class="col-12" >
-            
-            <p>total: </p> <p id="total"></p>
+      <div class="row">
+        <div class="col-12">
+          <p>total:</p>
+          <p id="total"></p>
         </div>
         <div class="col-12">
-            <p>A cada uno le toca aportar:</p><p id="cadaUno"></p>
+          <p>A cada uno le toca aportar:</p>
+          <p id="cadaUno"></p>
         </div>
-    </div>
+      </div>
     </div>
 
-    
-        <div class="col refrescar">
-            <button onclick="refrescar()" > Nuevo cálculo</button>
-        </div>
-    
+    <div class="col refrescar">
+      <button onclick="refrescar()">Nuevo cálculo</button>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
